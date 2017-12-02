@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+}
+
+body{
+    /*background: #111111;*/
+    background: radial-gradient(farthest-corner at 50% 50%, #111111 30%, black 60%) no-repeat 100%;
+    /*margin: 0;*/
+    height: 100%;
+    overflow: hidden;
+    color: gold;
+    text-align: center;
+}
+
+
+.anonymous {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 100px auto;
+    background: url(assets/anonymus.svg) no-repeat center center;
+
+    width: 70%;
+    height: 70%;
+    z-index: -1;
+}
+
+#title {
+    opacity: 0;
+    animation: fadein ease-in;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+#title h1 {
+    font-size: 60px;
+    size: 100px;
+}
+
+#countdown {
+    display: block;
+    font-size: 60px;
+    height: 100px;
+
+    opacity: 0;
+    animation: fadein ease-in;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 4s;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
