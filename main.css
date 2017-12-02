@@ -4,7 +4,7 @@ html{
 
 body{
     /*background: #111111;*/
-    background: radial-gradient(farthest-corner at 50% 50%, #111111 30%, black 60%) no-repeat 100%;
+    background: radial-gradient(farthest-corner at 50% 60%, #111111 30%, black 60%) no-repeat 100%;
     /*margin: 0;*/
     height: 100%;
     overflow: hidden;
@@ -21,34 +21,39 @@ body{
     margin: 100px auto;
     background: url(assets/anonymus.svg) no-repeat center center;
 
-    width: 70%;
+    /*width: 70%;*/
     height: 70%;
     z-index: -1;
 }
 
 #title {
+    height: 20%;
     opacity: 0;
     animation: fadein ease-in;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 #title h1 {
     font-size: 60px;
-    size: 100px;
+}
+
+#title h3 {
+    font-size: 40px;
 }
 
 #countdown {
     display: block;
     font-size: 60px;
-    height: 100px;
+    font-weight: bold;
+    height: 10%;
 
     opacity: 0;
     animation: fadein ease-in;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 @keyframes fadein {
