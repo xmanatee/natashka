@@ -1,5 +1,5 @@
 .candle_flame{
-    margin:80px auto;
+    margin: 80px auto;
     width: 60px;
     height: 60px;
     position:relative;
@@ -87,18 +87,18 @@
 }
 
 .candle_base {
-    display: block;
-    height: 40%;
+    display: inline-block;
+    /*height: 40%;*/
     /*position: absolute;*/
     /*left: 0;*/
     /*right: 0;*/
     /*up: 100px;*/
     /*margin-top: 100px;*/
-    margin: -110px auto;
+    margin: -140px auto;
     content: url(assets/candle_2.svg);
 
-    width: 200px;
-    /*height: 80px;*/
+    /*width: 200px;*/
+    height: 300px;
     /*background-size: 100px 82px;*/
     /*content: url(assets/anonymus.svg);*/
     /*z-index: -10;*/

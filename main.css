@@ -4,7 +4,7 @@ html{
 
 body{
     /*background: #111111;*/
-    background: radial-gradient(farthest-corner at 50% 60%, #111111 30%, black 60%) no-repeat 100%;
+    background: radial-gradient(farthest-corner at 50% 50%, #111111 30%, black 60%) no-repeat 100%;
     /*margin: 0;*/
     height: 100%;
     overflow: hidden;
@@ -14,7 +14,7 @@ body{
 
 
 .anonymous {
-    display: block;
+    display: inline-block;
     position: absolute;
     left: 0;
     right: 0;
@@ -44,7 +44,7 @@ body{
 }
 
 #countdown {
-    display: block;
+    display: inline-block;
     font-size: 60px;
     font-weight: bold;
     height: 10%;
