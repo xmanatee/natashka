@@ -9,7 +9,7 @@ const createKey = function(node, clickHandler) {
 // la, si, do, re, mi, fa, sol
 
 const NOTES = ["C", "D", "E", "F", "G", "A", "B"];
-const OCTAVES = [3, 4];
+const OCTAVES = [3];
 
 const player = function(instrument, note, octave, duration) {
     return function() {
