@@ -1,10 +1,13 @@
 .candle {
+    position:absolute;
+    bottom:0;
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 .candle_flame{
-    margin: 80px auto;
+    margin: 0 auto;
     width: 60px;
     height: 60px;
     position:relative;
@@ -93,10 +96,12 @@
 }
 
 .candle_base {
-    position:relative;
+    margin: -55px auto 15px;
 
-    display: block;
-    margin: -135px auto;
+    /*position:relative;*/
+
+    /*display: block;*/
+    /*margin: -135px auto;*/
     content: url(assets/candle_2.svg);
     height: 300px;
 }
