@@ -14,10 +14,10 @@ const getCountdown = function(elemId, countDownDate) {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         document.getElementById(elemId).innerHTML =
-            pad(days) + ":" +
-            pad(hours) + ":" +
-            pad(minutes) + ":" +
-            pad(seconds) + "";
+            pad(days) + "D " +
+            pad(hours) + "H " +
+            pad(minutes) + "M " +
+            pad(seconds) + "S";
 
         if (distance < 0) {
             clearInterval(x);
