@@ -26,10 +26,8 @@ const createKeyboard = function(node, instrument, duration) {
 };
 
 window.onload = function() {
-    console.log("lalaka");
-
     var piano = Synth.createInstrument('piano');
     var keyboard = document.getElementById("keyboard");
-    createKeyboard(keyboard, piano, 2);
 
+    createKeyboard(keyboard, piano, 2);
 };

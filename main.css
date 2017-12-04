@@ -5,8 +5,7 @@ html{
 }
 
 body{
-    /*background: #111111;*/
-    background: radial-gradient(farthest-corner at 50% 50%, #111111 30%, black 60%) no-repeat 100%;
+    background: radial-gradient(farthest-corner at 50% 50%, #111111 30%, black 70%) no-repeat 100%;
     /*margin: 0;*/
     height: 100%;
     overflow: hidden;
@@ -27,20 +26,17 @@ body{
     position: absolute;
     left: 0;
     right: 0;
-    margin: 15% auto;
+    margin: 10% auto;
     background: url(assets/anonymus.svg) no-repeat center center;
 
-    /*width: 70%;*/
     height: 70%;
     z-index: -1;
 }
 
 .header {
     display: block;
-    /*margin: 0;*/
-    padding-top: 5%;
+    padding-top: 15%;
     height: 20%;
-    /*padding: 5%;*/
 
     opacity: 0;
     animation: fadein ease-in;
@@ -53,9 +49,7 @@ body{
     display: block;
     color: red;
 
-    /*margin: 0;*/
     height: 15%;
-    /*padding: 5%;*/
 
     opacity: 0;
     animation: fadein ease-in;
