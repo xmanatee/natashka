@@ -1,13 +1,14 @@
 @import '//fonts.googleapis.com/css?family=Bangers';
 
 html{
-    height: 100%;
+    height: 120%;
 }
 
 body{
     background: radial-gradient(farthest-corner at 50% 50%, #111111 30%, black 70%) no-repeat 100%;
+    /*background: white;*/
     /*margin: 0;*/
-    height: 100%;
+    height: 120%;
     overflow: hidden;
     color: white;
     font-family: Bangers;
@@ -33,9 +34,14 @@ body{
     z-index: -1;
 }
 
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
 .header {
     display: block;
-    padding-top: 15%;
+    padding-top: 20%;
     height: 20%;
 
     opacity: 0;
@@ -45,7 +51,7 @@ body{
     animation-delay: 1s;
 }
 
-.countdown {
+.content {
     display: block;
     color: red;
 
@@ -56,6 +62,21 @@ body{
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-delay: 2s;
+
+}
+
+#qrframe {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+
+}
+
+#qrcode {
+    display: inline-block;
+    /*width: 100%;*/
+    /*height: 15%;*/
+    /*margin: auto;*/
 }
 
 @keyframes fadein {
