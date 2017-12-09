@@ -12,7 +12,7 @@ targets = [nat]
 # admins = ["xmanatee"]
 # targets = ["elinrin"]
 
-username_to_chatid = {}
+username_to_chatid = {'xmanatee': 136296712, 'elinrin': 252327988}
 
 
 def start(bot, update):
