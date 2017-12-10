@@ -28,7 +28,7 @@ body{
     left: 0;
     right: 0;
     margin: 10% auto;
-    background: url(assets/anonymus.svg) no-repeat center center;
+    background: url(../assets/anonymus.svg) no-repeat center center;
 
     height: 70%;
     z-index: -1;
