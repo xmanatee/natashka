@@ -1,5 +1,4 @@
-const countDownDate = new Date("Dec 9, 2017 00:00:00").getTime();
-// const countDownDate = new Date("Dec 3, 2017 00:00:00").getTime();
+const countDownDate = new Date("Dec 9, 2018 00:00:00").getTime();
 
 function pad(n) {
     return (n < 10) ? ("0" + n) : n;
@@ -59,13 +58,3 @@ window.onload = function() {
         });
     }
 };
-
-// window.onload = function() {
-//     console.log("lalaka");
-//     document.getElementById("title").style.visibility = "hidden"; //.setAttribute("visibility", "hidden");
-//     setTimeout(function() {
-//         console.log("lalakasa");
-//         document.getElementById("title").style.visibility = "visible"; // .setAttribute("visibility", "visible");
-//     }, 2000);
-//
-// };
