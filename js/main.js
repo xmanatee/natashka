@@ -1,4 +1,4 @@
-const countDownDate = new Date("Dec 9, 2018 00:00:00").getTime();
+const countDownDate = new Date("Dec 9, 2019 00:00:00").getTime();
 
 function pad(n) {
     return (n < 10) ? ("0" + n) : n;
